@@ -119,3 +119,4 @@ class EmployeeList(viewsets.ModelViewSet):
         employee.save()
 
         return Response({"message": "Employee added successfully"}, status=status.HTTP_200_OK)
+    
